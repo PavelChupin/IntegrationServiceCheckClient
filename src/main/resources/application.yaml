@@ -1,0 +1,11 @@
+
+
+
+
+logging:
+  file:
+    name: IntegrationServiceClientCheck.log
+
+spring:
+  flyway:
+    sql-migration-prefix: V
