@@ -2,10 +2,15 @@ logging:
   file:
     name: IntegrationServiceClientCheck.log
 
-spring:
+
+
+custom-settings:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1433;databaseName=FISExchange;serverName=PCHUPIN-NOTE
     username: sa
     password: 14855887
+  interval:
+    start-request:
+      milliseconds: 10000
 
